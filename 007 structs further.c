@@ -42,3 +42,4 @@ int main() {
 	printf("%s %d, %d %d\n", newpixel.n.name, newpixel.n.value, newpixel.x, newpixel.y);
 	return 0;
 }
+
