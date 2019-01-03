@@ -23,3 +23,5 @@ int main() {
 	printf("%d %lf", rn.in, rn.dn);
 	return 0;
 }
+
+
