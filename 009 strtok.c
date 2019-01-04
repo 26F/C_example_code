@@ -1,4 +1,9 @@
 // separate words from single line using fgets and strtok
+// create a file called doc.txt and place it in the same 
+// place as the executable
+
+//chocolate;caramel;cream;apple,orange,banana,raspberry,blackberry 
+
 #include <stdio.h>
 #include <string.h>
 
