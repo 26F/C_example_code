@@ -1,4 +1,8 @@
 // read lines from file and word count etc
+/*
+Create a file called newtext.txt and place it in the same folder as the executable.
+Experiment.
+*/
 #include <stdio.h>
 
 #define LINESIZE 125
