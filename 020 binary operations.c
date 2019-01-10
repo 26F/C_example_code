@@ -8,7 +8,7 @@ void getEndian() {
     // (char*)&num will point to the first byte of that int. 
 
     // Little-Endian: 2^0 2^1 2^2 2^3 2^4 2^5 2^6 2^7
-    // Big0Endian:    2^7 2^6 2^5 2^4 2^3 2^2 2^1 2^0
+    // Big-Endian:    2^7 2^6 2^5 2^4 2^3 2^2 2^1 2^0
 }
 
 int loc = 0;
