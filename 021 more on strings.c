@@ -15,7 +15,7 @@ void swap(int * a, int * b) {
 
 char * swapcharofpointer(int offs, char * str, char c) {
 	int size = strlen(str);
-	char * newstr = (char*) malloc(size * sizeof(char)); // will need to be freed later
+	char * newstr = (char*) malloc(size * sizeof(char)); // will need to be freed later 
 	strcpy(newstr, str);
 	newstr[offs] = c;
 	return newstr;
