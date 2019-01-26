@@ -34,7 +34,7 @@ int main() {
 	while (1) {
 		fscanf(fo, "%s %s %s %s %s %d", str[0], str[1], str[2], str[3], str[4], &dob);
 		printf("\n%s %s %s %s %s %d", str[0], str[1], str[2], str[3], str[4], dob);
-		if (feof(fo)) {
+		if (feof(fo)) { // feof means file end of file
 			break;
 		}
 	}
